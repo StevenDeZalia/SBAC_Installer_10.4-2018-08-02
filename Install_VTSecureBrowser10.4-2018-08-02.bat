@@ -21,7 +21,7 @@ if exist "%ProgramFiles(x86)%\VW\VT\Julie\M16-SAPI5\data-julie" goto detected
 		exit
 
 		:not_detected64
-		echo Julie x64 not detected, Checking for x86 Julie Voice Pack
+		echo Julie x64 not detected,
 		goto check_x86
 
 			:check_x86
